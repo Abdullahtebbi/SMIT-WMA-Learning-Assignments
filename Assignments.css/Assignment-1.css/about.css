@@ -1,0 +1,64 @@
+nav{
+    background-color: rgb(246, 246, 246);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 1520px;
+    height: 50px;
+    font-size:20px ;
+    text-align: center;
+}
+body{
+    background-image: url(./photos/back.about.avif);
+    background-size: 100%;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+}
+.logo{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin: 10px 500px 10px 0px;
+    font-size: 40px;
+    display: inline;
+}
+
+#aboutbody {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+img {
+    text-align: center;
+    width: 250px;
+}
+#welcomefoodies{
+    text-align: center;
+    color: red;
+}

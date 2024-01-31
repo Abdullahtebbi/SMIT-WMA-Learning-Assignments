@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <title>FOODies</title>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">FOODies</h1>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="timing.html">Timing</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+        <h1 id="contactus">Contact Us</h1>
+    <section >
+        <form action="process_contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>

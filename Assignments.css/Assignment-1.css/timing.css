@@ -1,0 +1,38 @@
+nav{
+    background-color: rgb(246, 246, 246);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 1520px;
+    height: 50px;
+    font-size:20px ;
+    text-align: center;
+}
+body{
+    background-image: url(./photos/back.about.avif);
+    background-size: 100%;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+}
+.logo{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin: 10px 500px 10px 0px;
+    font-size: 40px;
+    display: inline;
+}
+#opening{
+    text-align: center;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
