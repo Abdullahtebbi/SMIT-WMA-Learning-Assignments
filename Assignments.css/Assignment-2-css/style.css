@@ -1,0 +1,373 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: rgb(74, 68, 68);
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+
+nav a:hover {
+    color: #0ef;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#searchimg {
+    cursor: pointer;
+}
+
+#logo {
+    padding: auto;
+    margin-top: 5px;
+    display: flex;
+    gap: 0rem;
+    /* flex-direction: row; */
+    margin: 7px 420px 0px 10px;
+}
+
+.weblogo {
+    margin: auto;
+    margin-left: 50px;
+}
+
+#tropiko {
+    margin: 10px;
+    font-size: 25px;
+    color: #0ef;
+}
+
+nav ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    justify-content: end;
+    color: rgb(252, 250, 250);
+    font-size: 20px;
+    transition: 0.8s;
+}
+
+#button {
+    width: 110px;
+    height: 30px;
+    background-color: rgba(255, 68, 0, 0.849);
+    border: hidden;
+    color: white;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 90%;
+    background-color: rgb(243, 242, 242);
+}
+
+#welcome {
+    font-size: 70px;
+    padding: 80px;
+    margin-right: 80px;
+}
+
+#para {
+    margin: 0px 0px 0px 70px;
+    font-size: 20px;
+}
+
+#secondButton {
+    width: 130px;
+    height: 40px;
+    margin: 50px;
+    margin-right: 20px;
+    background-color: rgba(255, 68, 0, 0.849);
+    border: none;
+    color: white;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+#thirdButton {
+    width: 130px;
+    height: 40px;
+    margin-left: 0px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+#headerPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bodyfirstheading {
+    text-align: center;
+    font-size: 45px;
+}
+
+.bodyfirstp {
+    text-align: center;
+    font-size: 20px;
+}
+
+.bodyfirstdiv {
+    margin: 60px 0px auto;
+    line-height: 1.2cm;
+}
+
+.card {
+    height: 45%;
+    width: 30%;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #dfdedeea;
+    border-radius: 0.4rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#servicecards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 4rem 0rem 5rem 0rem;
+}
+
+.cardimg {
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.cardname {
+    color: rgba(189, 22, 22, 0.855);
+    margin-bottom: 15px;
+}
+
+.cardinfo {
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+}
+
+#btn-readmore {
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.h1-freshfruits {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+.h1-freshfruitsinfo {
+    text-align: center;
+    line-height: 1.2cm;
+    font-size: 20px;
+}
+
+.fruits-text {
+    display: inline-block;
+    width: 1100px;
+    height: 400px;
+    padding: 30px 50px;
+    line-height: 1cm;
+}
+
+.fruits-menuheading {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+.Fruits-menuinfo {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.fruits-img {
+    width: 25%;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.btn-buynow {
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.fruits-menu {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.testimonial {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+.testimonial-info {
+    text-align: center;
+    line-height: 1.2cm;
+    font-size: 20px;
+}
+
+.johnhex-img {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.johnhex-name {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+.johnhex-info {
+    text-align: center;
+    font-size: 20px;
+    line-height: 0.8cm;
+}
+
+.h1-contact {
+    text-align: left;
+    font-size: 45px;
+}
+
+.div-contact input {
+    width: 800px;
+    height: 50px;
+    font-size: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.send-btn {
+    width: 160px;
+    height: 43px;
+    background-color: rgb(229, 80, 26);
+    border: hidden;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.div-contact {
+    margin-left: 50px;
+    margin-top: 230px;
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+.input-msg {
+    margin-top: 80px;
+}
+
+
+.div-img {
+    margin-top: 230px;
+}
+
+.maindiv-contact {
+    display: flex;
+}
+
+.maindiv-footer {
+    display: flex;
+    margin: 260px 80px 100px 50px;
+}
+
+.div2-footer {
+    margin-left: 200px;
+}
+
+.div3-footer {
+    margin-left: 200px;
+}
+
+.div4-footer {
+    margin-left: 200px;
+}
+
+.divheading-footer {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.divoptions-footer {
+    font-size: 25px;
+    line-height: 0.9cm;
+}
+
+.logos-div4-footer {
+    display: flex;
+}
+
+.logos-div4-footer {
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.input-footer {
+    width: 200px;
+    height: 40px;
+}
+
+.Subscribe-btn {
+    width: 160px;
+    height: 43px;
+    background-color: rgb(229, 80, 26);
+    border: hidden;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(229, 227, 227);
+    padding: 25px;
+}
