@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="maindiv">
+        <div class="screenbar">
+            <input type="text" id="userInput" placeholder="0" readonly>
+            <div id="output">0</div>
+        </div>
+        <div id="btnsmaindiv">
+            <div id="btnsrow1">
+                <button id="changelyout"><img id="right-arrow" src="./icons/right-arrow.png"></button>
+                <button id="clearBtn" onclick="clearInput()">C</button>
+                <button class="mathSignBtn"><img src="./icons/delete.png" onclick="backSpace()"
+                        id="delete-icon"></button>
+                <button class="mathSignBtn">÷</button>
+            </div>
+            <div id="btnsrow2">
+                <button class="numBtn">7</button>
+                <button class="numBtn">8</button>
+                <button class="numBtn">9</button>
+                <button class="mathSignBtn">x</button>
+            </div>
+            <div id="btnsrow3">
+                <button class="numBtn">4</button>
+                <button class="numBtn">5</button>
+                <button class="numBtn">6</button>
+                <button class="mathSignBtn">+</button>
+            </div>
+            <div id="btnsrow4">
+                <button class="numBtn">1</button>
+                <button class="numBtn">2</button>
+                <button class="numBtn">3</button>
+                <button class="mathSignBtn">-</button>
+
+            </div>
+            <div id="btnsrow5">
+                <button class="numBtn">0</button>
+                <button class="numBtn">.</button>
+                <button id="resultBtn" class="mathSignBtn" onclick="calculate()">=</button>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="s-btnsmaindiv">
+            <div id="s-btnsrow1">
+                <button id="s-changelyout"><img id="left-arrow" src="./icons/left-arrow (2).png"></button>
+                <button id="s-clearBtn" onclick="clearInput()">C</button>
+                <button class="s-mathSignBtn"><img src="./icons/delete.png" id="delete-icon"
+                        onclick="backSpace()"></button>
+                <button class="s-mathSignBtn">÷</button>
+            </div>
+            <div id="s-btnsrow2">
+                <button class="s-Btn" onblur="sin()">sin</button>
+                <button class="s-Btn" onblur="cos()">cos</button>
+                <button class="s-Btn" onblur="tan()">tan</button>
+                <button class="s-mathSignBtn">x</button>
+            </div>
+            <div id="s-btnsrow3">
+                <button class="s-Btn" onblur="squareRoot()">√</button>
+                <button class="s-Btn" onblur="pi()">π</button>
+                <button class="s-Btn" onblur="log()">log</button>
+                <button class="s-mathSignBtn">+</button>
+            </div>
+            <div id="s-btnsrow4">
+                <button class="s-Btn" onblur="e()">e</button>
+                <button class="s-Btn">(</button>
+                <button class="s-Btn">)</button>
+                <button class="s-mathSignBtn">-</button>
+
+            </div>
+            <div id="s-btnsrow5">
+                <button class="s-Btn">%</button>
+                <button class="s-Btn">.</button>
+                <button id="s-resultBtn" class="s-mathSignBtn">=</button>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #908794;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+.maindiv {
+    width: 400px;
+    height: 700px;
+    background-color: rgb(25, 25, 43);
+    border-radius:35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.screenbar{
+    background-color: rgb(190, 194, 231);
+    width: 340px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+#output {
+    text-align: right;
+    color: black;
+    font-size: 45px;
+    font-weight: 100;
+    position: relative;
+    top: 90px;
+    width: 323px; /* Adjusted width */
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+#userInput {
+    all: unset;
+    color: gray;
+    position: relative;
+    top: 70px;
+    width: calc(100% - 20px);
+    max-width: 100%;
+    height: 30px;
+    font-size: 24px;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+#btnsmaindiv{
+    margin-top: 15px;
+    height: 420px;
+    width: 340px;
+}
+button{
+    font-size: 30px;
+    width: 72px;
+    height: 72px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(98, 130, 182);
+    border-radius: 40px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+button:hover {
+    background-color: rgb(34, 61, 104);
+}
+button:active {
+    transform: scale(0.95); 
+}
+#clearBtn{
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: rgb(172, 176, 212);
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+#delete-icon{
+   width: 30px;
+   margin-top: 5px;
+   margin-right: 5px;
+}
+.mathSignBtn{
+    background-color: rgb(172, 176, 212);
+    border-radius: 40px;
+}
+#changelyout{
+    background-color: rgb(228, 57, 57);
+    border-radius: 0px 40px 40px 0px;
+}
+.numBtn{
+    background-color: rgb(94, 136, 199);
+    border-radius: 40px;
+}
+#btnsrow1{
+    display: flex;
+    justify-content: space-between;
+}
+#btnsrow2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#btnsrow3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#btnsrow4{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#btnsrow5{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#resultBtn{
+    background-color: rgb(31, 87, 31);
+    width: 152px;
+    height: 72px;
+    border: none;
+    border-radius: 40px;
+}
+#right-arrow{
+    width: 35px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+
+
+/* Scientific Btns section */
+
+#s-btnsmaindiv{
+    margin-top: 15px;
+    height: 420px;
+    width: 340px;
+}
+
+#s-clearBtn{
+    background-color: rgb(172, 176, 212);
+    border-radius: 40px;
+}
+.s-mathSignBtn{
+    background-color: rgb(172, 176, 212);
+    border-radius: 40px;
+}
+#s-changelyout{
+    background-color: rgb(94, 136, 199);
+    border-radius: 0px 40px 40px 0px;
+}
+.s-Btn{
+    background-color: rgb(228, 57, 57);
+    border-radius: 40px;
+}
+#s-btnsrow1{
+    display: flex;
+    justify-content: space-between;
+}
+#s-btnsrow2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#s-btnsrow3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#s-btnsrow4{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#s-btnsrow5{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#s-resultBtn{
+    background-color: rgb(31, 87, 31);
+    width: 152px;
+    height: 72px;
+    border: none;
+    border-radius: 40px;
+}
+#left-arrow{
+    width: 35px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+
