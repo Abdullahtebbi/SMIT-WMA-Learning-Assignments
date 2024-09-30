@@ -1,0 +1,51 @@
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 0px;
+}
+.navbar img{
+    width: 150px;
+    height: 40px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 590px;
+}
+.navbar ul li{
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #728197;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    color: #667FEA;
+}
+.dark-mood-icon{
+    width: 40px;
+    height: 30px;
+}
+.dark-mood-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 68, 0, 0.658);
+    width: 52px;
+    height: 26px;
+    border-radius: 60px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.white-circle{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+.dark-mood-btn img{
+    width: 20px;
+    height: 20px;
+}
