@@ -1,0 +1,270 @@
+.container {
+  display: flex;
+  margin: 20px 60px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f9f9f9; /* Light background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 480px; /* Fixed height */
+  overflow: hidden;
+  text-align: center; /* Center the text */
+  border: 1px solid #e0e0e0; /* Light border */
+}
+
+.block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-container {
+  width: 100%;
+  height: 200px; /* Fixed height for all images */
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 10px; */
+  background-color: #ffffff; /* Light background for contrast */
+}
+
+.prodimg {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* Ensures the image covers the container proportionally */
+}
+
+
+.ptitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 10px 0;
+  height: 50px; /* Fixed height to keep titles uniform */
+  overflow: hidden; /* Truncate long titles */
+}
+
+.pdes {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  height: 60px; /* Fixed height for uniformity */
+  overflow: hidden; /* Hide overflow if description is too long */
+  margin-bottom: 10px;
+}
+
+.pprice {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.delete {
+  color: #ffffff; /* White text */
+  border: none;
+  margin-right: 5px;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.delete:hover {
+  
+  background-color: #e60000; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly scales the button on hover */
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 10px 30px;
+  }
+
+  .block {
+    width: 270px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    justify-content: center;
+    margin: 0px 10px;
+  }
+
+  .block {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+}
+
+.cart{
+  color: #43617e; /* White text color */
+  border: 1.5px solid #43617e; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: 0.4s;
+}
+.cart:hover{
+  background: #37597c;
+  color: white;
+}
+.cart:active{
+  background: #619edb;
+
+}
+.cart-container{
+  margin: auto;
+  text-align: center;
+}
+.input{
+  height: 24px;
+  width: 25px;
+  margin: 8px;
+  outline: none;
+  background: transparent;
+  border: 1px solid #2c3e50;
+  border-radius: 4px;
+}
+body {
+  margin: 0; /* Reset margin */
+  font-family: 'Arial', sans-serif; /* Default font */
+}
+
+.navbar {
+  background-color: #2c3e50; /* Dark blue background */
+  color: #ffffff; /* White text */
+  padding: 15px 20px; /* Padding around the navbar */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Space out logo and nav links */
+  align-items: center; /* Center vertically */
+  max-width: 1200px; /* Max width for the navbar */
+  margin: 0 auto; /* Center the navbar */
+  flex-wrap: wrap;
+}
+.priceoff{
+  display: flex;
+  align-items: baseline;
+}
+.priceoff > * {
+  padding-left: 15px;
+}
+.dis{
+  background-color: #37597c;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+
+}
+.logo {
+  font-size: 1.5em; /* Logo size */
+  font-weight: bold; /* Bold logo */
+}
+
+.nav-links {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Display links in a row */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
+.nav-links li {
+  margin: 0 15px; /* Space between links */
+}
+
+.nav-links a {
+  color: #ffffff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-links a:hover {
+  color: #4179b1; /* Red on hover */
+}
+
+.search-container {
+  display: flex; /* Display search input and button in a row */
+  align-items: center; /* Center vertically */
+}
+
+.search-input {
+  padding: 5px; /* Padding inside the input */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.search-button {
+  background: #6c8dae;
+  color: #ffffff; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 6px 10px; /* Padding for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-left: 5px; /* Space between input and button */
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.search-button:hover {
+  background-color: #4179b1; /* Darker red on hover */
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer-section {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  padding-top: 10px;
+}
